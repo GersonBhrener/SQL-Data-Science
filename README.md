@@ -26,11 +26,11 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
 
 ### Ferramentas
 
-- SQL: ANSI
-- SGBDs (Ambiente de Execução Local)
+- **SQL**: padronização ANSI
+- **SGBDs**: (Ambiente de Execução Local)
   - [MySQL Community Edition](https://www.mysql.com/products/community/)
 
-- Python
+- **Python 3**
   - [Ambiente Python](https://www.python.org/)
   - [Jupyter Notebook](https://jupyter.org/): apresentação do projeto
   - [SQLAlchemy](https://www.sqlalchemy.org/): integração ambiente Python com SGBDs

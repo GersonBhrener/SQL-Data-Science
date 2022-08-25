@@ -1,4 +1,4 @@
-# <p align="center">SQL para Data Science<p/>
+# <div align="center">SQL para Data Science</div>
 
 <div align="center">
 <picture>
@@ -6,8 +6,6 @@
   <img width="128px" alt="" src="https://i.imgur.com/V278dTp.png">
 </picture>
 </div>
-
-<br>
 
 ## Sobre
 
@@ -30,18 +28,27 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
 - **SGBDs**: (Ambiente de Execução Local)
   - [MySQL Community Edition](https://www.mysql.com/products/community/)
 
-- **Python 3**
+- **Python 3 e Bibliotecas**
   - [Ambiente Python](https://www.python.org/)
   - [Jupyter Notebook](https://jupyter.org/): apresentação do projeto
   - [SQLAlchemy](https://www.sqlalchemy.org/): integração ambiente Python com SGBDs
   - [mysql-connector-python](https://pypi.org/project/mysql-connector-python/): conector Python-MySQl
   - [ipython-sql](https://pypi.org/project/ipython-sql/): conexão e comandos SQL diretamente no Jupyter Notebook
+
 ### Projeto
 
-- 
+- Os projetos serão divididos de acordo com o SGBS em que a análise foi realizada respeitando os comandos SQL particulares de cada sistema.
+- As queries, análises e conclusões se darão por meio do Jupyter Notebook conectado ao SGBD.
+- Os dataset serão com dados reais (open data) ou fictícios (demo-data).
+- O assunto, tipo de dataset e comandos serão exibidos nas tabelas de cada projeto.
+-  Descrição mais detalhada se encontrá na pasta do devido projeto
 
-<h4>
- <details>
-<summary>MySQL</summary>  
-</details>
-</h4>
+####  MYSQL
+
+- **Seleção**: SELECT/DISTINCT
+  - **Filtro**: WHERE + NOT/ AND/ OR/ BETWEEN/ IN/ (IS)NULL/ LIKE
+  - **Ordenamento**: ORDER BY
+
+| Projeto | Dataset | Data da Análise |
+| ---     | ---     | ---             |
+| [Inspeção de Navios de Cruzeiro - Anvisa]()| Open Data |

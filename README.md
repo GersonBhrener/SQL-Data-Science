@@ -36,4 +36,12 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
   - [SQLAlchemy](https://www.sqlalchemy.org/): integração ambiente Python com SGBDs
   - [mysql-connector-python](https://pypi.org/project/mysql-connector-python/): conector Python-MySQl
   - [ipython-sql](https://pypi.org/project/ipython-sql/): conexão e comandos SQL diretamente no Jupyter Notebook
+### Projeto
 
+- 
+
+<h4>
+ <details>
+<summary>MySQL</summary>  
+</details>
+</h4>

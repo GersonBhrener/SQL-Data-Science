@@ -35,7 +35,7 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
   - [mysql-connector-python](https://pypi.org/project/mysql-connector-python/): conector Python-MySQl
   - [ipython-sql](https://pypi.org/project/ipython-sql/): conexão e comandos SQL diretamente no Jupyter Notebook
 
-### Projeto
+### Descrição
 
 - Os projetos serão divididos de acordo com o SGBS em que a análise foi realizada respeitando os comandos SQL particulares de cada sistema.
 - As queries, análises e conclusões se darão por meio do Jupyter Notebook conectado ao SGBD.
@@ -43,12 +43,22 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
 - O assunto, tipo de dataset e comandos serão exibidos nas tabelas de cada projeto.
 -  Descrição mais detalhada se encontrá na pasta do devido projeto
 
-####  MYSQL
+### Projetos
 
-- **Seleção**: SELECT/DISTINCT
-  - **Filtro**: WHERE + NOT/ AND/ OR/ BETWEEN/ IN/ (IS)NULL/ LIKE
-  - **Ordenamento**: ORDER BY
+#### MySQL
 
-| Projeto | Dataset | Data da Análise |
+- Seleção, Filtro e Ordenamento
+
+```
+SELECT * | columns 
+FROM tables
+WHERE condition
+ORDER columns
+LIMIT number
+```
+
+| Projetos | Dataset | Data da Análise |
 | ---     | ---     | ---             |
-| [Inspeção de Navios de Cruzeiro - Anvisa]()| Open Data |
+| [Inspeção de Navios de Cruzeiro - Anvisa]()| Open Data | |
+
+

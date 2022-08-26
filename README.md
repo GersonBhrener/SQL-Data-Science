@@ -26,7 +26,7 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
 
 - **SQL**
 <br>
-- **SGBDs**: (Ambiente de Execução Local)
+- **SGBD**:
   - [MySQL Community Edition](https://www.mysql.com/products/community/)
 <br>
 

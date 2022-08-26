@@ -24,9 +24,11 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
 
 ### Ferramentas
 
-- **SQL**: padronização ANSI
+- **SQL**
+<br>
 - **SGBDs**: (Ambiente de Execução Local)
   - [MySQL Community Edition](https://www.mysql.com/products/community/)
+<br>
 
 - **Python 3 e Bibliotecas**
   - [Ambiente Python](https://www.python.org/)
@@ -41,16 +43,16 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
 - As queries, análises e conclusões se darão por meio do Jupyter Notebook conectado ao SGBD.
 - Os dataset serão com dados reais (open data) ou fictícios (demo-data).
 - O assunto, tipo de dataset e comandos serão exibidos nas tabelas de cada projeto.
--  Descrição mais detalhada se encontrá na pasta do devido projeto
+-  Mais detalhes se encontram na pasta do devido projeto
 
-### Projetos
+## Projetos
 
-#### MySQL
+### MySQL
 
 - Seleção, Filtro e Ordenamento
 
 ```
-SELECT * | columns 
+SELECT [DISTINCT] * | columns 
 FROM tables
 WHERE condition
 ORDER columns

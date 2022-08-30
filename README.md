@@ -11,9 +11,8 @@
 
 Este repositório apresenta variados projetos na aprendizagem e aplicação da linguagem SQL na área Data Science, mais especificamente, em Análise de Dados.
 
-## Overview
 
-### Objetivos
+## Objetivos
 
 - Aprendizado da linguagem SQL em diferentes SGBDs de execução local na criação, leitura, atualização e exclusão de dados.
 - Demonstrar a aplicaçao da linguagem em diferentes situações (datasets) de análise de dados.
@@ -22,29 +21,22 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
 
 ## Processo
 
+- Os projetos serão divididos de acordo com o SGBD em que a análise foi realizada respeitando os comandos SQL particulares de cada sistema.
+- A execução das análises serão por meio do Jupyter Notebook.
+- Os dataset serão com dados reais (open data) ou fictícios (demo data)
+- Para melhor visualização da análise, os notebooks poderão conter representações visuais.
+
+
 ### Ferramentas
 
-- **SQL**
-<br>
-
 - **SGBD**:
-  - [MySQL Community Edition](https://www.mysql.com/products/community/)
-<br>
+  - [MySQL 8 Community Edition &  MySQL Workbench](https://www.mysql.com/products/community/)
 
-- **Python 3 e Bibliotecas**
-  - [Ambiente Python](https://www.python.org/)
-  - [Jupyter Notebook](https://jupyter.org/): apresentação do projeto
-  - [SQLAlchemy](https://www.sqlalchemy.org/): integração ambiente Python com SGBDs
-  - [mysql-connector-python](https://pypi.org/project/mysql-connector-python/): conector Python-MySQl
-  - [ipython-sql](https://pypi.org/project/ipython-sql/): conexão e comandos SQL diretamente no Jupyter Notebook
-
-### Descrição
-
-- Os projetos serão divididos de acordo com o SGBS em que a análise foi realizada respeitando os comandos SQL particulares de cada sistema.
-- As queries, análises e conclusões se darão por meio do Jupyter Notebook conectado ao SGBD.
-- Os dataset serão com dados reais (open data) ou fictícios (demo-data).
-- O assunto, tipo de dataset e comandos serão exibidos nas tabelas de cada projeto.
--  Mais detalhes se encontram na pasta do devido projeto
+- **Python**
+    - [Jupyter Notebook](https://jupyter.org/)
+    - [SQLAlchemy](https://www.sqlalchemy.org/): Integração ambiente Python com SGBDs
+    - [mysql-connector-python](https://pypi.org/project/mysql-connector-python/): Conector Python-MySQL
+    - [ipython-sql](https://pypi.org/project/ipython-sql/): Comandos SQL diretamente no Jupyter Notebook
 
 ## Projetos
 
@@ -53,15 +45,15 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
 - Seleção, Filtro e Ordenamento
 
 ```
-SELECT [DISTINCT] * | columns 
+SELECT [DISTINCT] * columns 
 FROM tables
-WHERE condition
-ORDER columns
-LIMIT number
+[WHERE] condition
+[ORDER] columns
+[LIMIT] number
 ```
 
 | Projetos | Dataset | Data da Análise |
 | ---     | ---     | ---             |
-| [Inspeção de Navios de Cruzeiro - Anvisa]()| Open Data | |
+| [Inspeção de Navios de Cruzeiro - Anvisa](/MySQL/Inspecao_Navios_Cruzeiro_Anvisa/Inspecao_Navios_Cruzeiro.ipynb)| Open Data | |
 
 

@@ -53,7 +53,7 @@ FROM tables
 ```
 
 | Projetos | Dataset | Data da Análise |
-| ---     | ---     | ---             |
-| [Inspeção de Navios de Cruzeiro - Anvisa](/MySQL/Inspecao_Navios_Cruzeiro_Anvisa/Inspecao_Navios_Cruzeiro.ipynb)| Open Data | |
+| :---:     | :---:     | :---:             |
+| [Inspeção de Navios de Cruzeiro - Anvisa](/MySQL/Inspecao_Navios_Cruzeiro_Anvisa/Inspecao_Navios_Cruzeiro.ipynb)| Open Data | 31/08/2022 |
 
 

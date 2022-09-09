@@ -56,4 +56,10 @@ FROM tables
 | :---:     | :---:     | :---:             |
 | [Inspeção de Navios de Cruzeiro - Anvisa](/MySQL/Inspecao_Navios_Cruzeiro_Anvisa/Inspecao_Navios_Cruzeiro.ipynb)| Open Data | 31/08/2022 |
 
+- Categorização, Label Encoding and One-Hot Encoding e Binarização de Variáveis
+
+| Projetos | Dataset | Data da Análise |
+| :---:     | :---:     | :---:             |
+|[Ocorrência de Câncer de Mama - UC Irvine Machine Learning Repository]() | Open Data | |
+
 

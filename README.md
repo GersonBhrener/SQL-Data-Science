@@ -23,7 +23,7 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
 
 - Os projetos serão divididos de acordo com o SGBD em que a análise foi realizada respeitando os comandos SQL particulares de cada sistema.
 - A execução das análises serão por meio do Jupyter Notebook.
-- Os dataset serão com dados reais (open data) ou fictícios (demo data)
+- Os dataset serão com dados reais (open data) ou fictícios (dummy data)
 - Para melhor visualização da análise, os notebooks poderão conter representações visuais.
 
 
@@ -45,7 +45,7 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
 - Seleção, Filtro e Ordenamento
 
 ```
-SELECT [DISTINCT] * columns 
+SELECT [DISTINCT] * columns [AS alias]
 FROM tables
 [WHERE] condition
 [ORDER] columns
@@ -56,10 +56,20 @@ FROM tables
 | :---:     | :---:     | :---:             |
 | [Inspeção de Navios de Cruzeiro - Anvisa](/MySQL/Inspecao_Navios_Cruzeiro_Anvisa/Inspecao_Navios_Cruzeiro.ipynb)| Open Data | 31/08/2022 |
 
-- Categorização, Label Encoding and One-Hot Encoding e Binarização de Variáveis
+- CASE Statement
+```
+SELECT
+  CASE
+    WHEN condition THEN value
+    WHEN condition THEN value
+  [ELSE]
+  END [AS alias]
+
+```
+
 
 | Projetos | Dataset | Data da Análise |
 | :---:     | :---:     | :---:             |
-|[Ocorrência de Câncer de Mama - UC Irvine Machine Learning Repository]() | Open Data | |
+|[Ocorrência de Câncer de Mama - UC Irvine ML Repository]() | Open Data | 09/09/2022 |
 
 

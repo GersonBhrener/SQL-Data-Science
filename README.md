@@ -42,7 +42,8 @@ Este repositório apresenta variados projetos na aprendizagem e aplicação da l
 
 ### MySQL
 
-- Seleção, Filtro e Ordenamento
+<details>
+<summary>Seleção, Filtro e Ordenamento</summary>
 
 ```
 SELECT [DISTINCT] * columns [AS alias]
@@ -55,8 +56,11 @@ FROM tables
 | Projetos | Dataset | Data da Análise |
 | :---:     | :---:     | :---:             |
 | [Inspeção de Navios de Cruzeiro - Anvisa](/MySQL/Inspecao_Navios_Cruzeiro_Anvisa/Inspecao_Navios_Cruzeiro.ipynb)| Open Data | 31/08/2022 |
+</details>
 
-- CASE Statement
+<details>
+<summary>CASE Statement</summary>
+
 ```
 SELECT
   CASE
@@ -67,9 +71,8 @@ SELECT
 
 ```
 
-
 | Projetos | Dataset | Data da Análise |
 | :---:     | :---:     | :---:             |
 |[Ocorrência de Câncer de Mama - UC Irvine ML Repository]() | Open Data | 09/09/2022 |
-
+</details>
 

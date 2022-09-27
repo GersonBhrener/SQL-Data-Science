@@ -1,4 +1,4 @@
-CREATE TABLE `cap03`.`TB_DADOS` (
+CREATE TABLE `sql_ds`.`TB_BREAST_CANCER` (
   `classe` VARCHAR(100) NULL,
   `idade` VARCHAR(45) NULL,
   `menopausa` VARCHAR(45) NULL,

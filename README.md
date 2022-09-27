@@ -73,6 +73,6 @@ SELECT
 
 | Projetos | Dataset | Data da Análise |
 | :---:     | :---:     | :---:             |
-|[Ocorrência de Câncer de Mama - UC Irvine ML Repository]() | Open Data | 09/09/2022 |
+|[Ocorrência de Câncer de Mama - UC Irvine ML Repository](/MySQL/Cancer_Mama_UC_Irvine_ML_Repository/Breast_Cancer_UCI_ML.ipynb) | Open Data | 09/09/2022 |
 </details>
 
